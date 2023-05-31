@@ -169,6 +169,9 @@ public enum SettingsEnum {
     SWIPE_OVERLAY_TIMEOUT("revanced_swipe_overlay_timeout", LONG, 500L, true,
             parents(SWIPE_BRIGHTNESS, SWIPE_VOLUME)),
 
+    SWIPE_SAVE_AND_RESTORE_BRIGHTNESS("revanced_save_and_restore_brightness", BOOLEAN, TRUE, true,
+            parents(SWIPE_BRIGHTNESS, SWIPE_VOLUME)),
+
     // Debugging
     DEBUG("revanced_debug", BOOLEAN, FALSE),
     DEBUG_STACKTRACE("revanced_debug_stacktrace", BOOLEAN, FALSE, parents(DEBUG)),
